@@ -112,12 +112,6 @@ $$
 D_{ig} = L_{i} + d_{ig} + t_{g}.
 $$
 
-In matrix form,
-
-$$
-D_{ig}_{m\times n} = \boldsymbol{L}_{m\times 1}  \times \boldsymbol{1}_{1\times n} + [d_{ig}]_{m\times n} + \boldsymbol{1}_{m\times 1} \times  \boldsymbol{t}_{1\times n}
-$$
-
 ### 3.2 Area and Density
 In terms of area and density, they are easy to find as long as we get the dataset for SA2 and green space. We need their Geography and population information. (Actually not that easy :D, but too many details to say about it).
 
