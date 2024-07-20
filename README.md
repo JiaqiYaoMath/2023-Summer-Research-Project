@@ -107,11 +107,13 @@ But when were actually doing this, we encountered a new problem. Some of the gre
 
 \
 In all, the network distance $D_{ig}$ is
+
 $$
 D_{ig} = L_{i} + d_{ig} + t_{g}.
 $$
 
 In matrix form,
+
 $$
 [D_{ig}]_{m\times n} = \boldsymbol{L}_{m\times 1}  \times \boldsymbol{1}_{1\times n} + [d_{ig}]_{m\times n} + \boldsymbol{1}_{m\times 1} \times  \boldsymbol{t}_{1\times n} .
 $$
@@ -133,15 +135,19 @@ The first one is the Bayesian linear regression model. We will mention more abou
 
 ### 5.2 LISA
 The second one is Local indicators of spatial association, which is abbreviated as LISA. For each SA2, denote its local Moran’s I index by [[7]](#7)
+
 $$
 I_i = \hat{M_i} \cdot \sum_{j} [W_{ij} \hat{G_{j}}].
 $$
+
 Here $\hat{M}$ and $\hat{G}$ are both of standardized version of our data and $W$ is weight adjacency matrix.
 
 The global Moran’s I index is the mean of local ones
+
 $$
 I = E[I_i].
 $$
+
 In bivariate testing, it is used to detect whether there is a significant spatial clusters of two variables. It is similar to correlation. But it takes into account the impact of regional distribution. And it performs quite well in geography analysis. Its value ranges from -1 to 1. In our analysis, if it is positive, high-income communities will have better green resources, indicating inequality.
 
 
@@ -151,6 +157,7 @@ Last but not least, we use is Mann–Whitney U Test. We divide the communities i
 $$
 U = m_1m_2 + \frac{m_1(m_1+1)}{2} -R_1
 $$
+
 Here,
 
 * $m_1$ and $m_2$ are sizes of two groups respectively.
