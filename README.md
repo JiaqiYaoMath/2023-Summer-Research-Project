@@ -33,7 +33,7 @@ The Australian Bureau of Statistics, they have helped us address this issue. The
 
 ## 3. Measure Access to Green Space
 So far, our study subject is a set of many SA2 communities and a set of many green spaces. We need to find a method to connect those two sets and an indicator to quantitatively analyze the access to green space for each SA2. After comparison, we used the metric called green space index proposed by Farahnaz in his article to analyze green space in Melbourne [[4]](#4). For SA2 $i$, denote its Green Space Index $G_i$ by this formula.
-
+    
 $$
 G_i = \sum_{g}\frac{A_g}{\exp(D_{ig}) \cdot C_g}
 $$
