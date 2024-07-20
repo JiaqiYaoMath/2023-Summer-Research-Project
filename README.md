@@ -115,7 +115,7 @@ $$
 In matrix form,
 
 $$
-[D_{ig}]_{m\times n} = \boldsymbol{L}_{m\times 1}  \times \boldsymbol{1}_{1\times n} + [d_{ig}]_{m\times n} + \boldsymbol{1}_{m\times 1} \times  \boldsymbol{t}_{1\times n}
+D_{ig}_{m\times n} = \boldsymbol{L}_{m\times 1}  \times \boldsymbol{1}_{1\times n} + [d_{ig}]_{m\times n} + \boldsymbol{1}_{m\times 1} \times  \boldsymbol{t}_{1\times n}
 $$
 
 ### 3.2 Area and Density
